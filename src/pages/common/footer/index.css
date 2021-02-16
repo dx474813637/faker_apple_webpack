@@ -1,0 +1,54 @@
+/* 页尾的css代码 */
+.footer {
+  background-color: #f5f5f7;
+  font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+
+.footer-shuom {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 11px;
+}
+
+.content {
+  list-style-position: outside;
+  margin: 0;
+  /* padding: 0 17px; */
+}
+
+.content .item {
+  line-height: 1.5;
+}
+.content .item,
+.title {
+  padding-bottom: 0.8em;
+}
+
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  & .item-label {
+    line-height: 25px;
+    font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  & .item-ul {
+    margin-bottom: 15px;
+    & .item-li {
+      line-height: 28px;
+      color: #86868b;
+      & a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
